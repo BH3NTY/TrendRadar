@@ -2,7 +2,7 @@ name: Hot News Crawler
 
 on:
   schedule:
-    - cron:  "0 0,4,10,14 * * *" # https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#onschedule
+    - cron:  "0 0,10 * * *" # https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#onschedule
     
   workflow_dispatch:
 
